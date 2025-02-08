@@ -1,0 +1,7 @@
+x=[i for i in input()]
+x=set(x)
+x=list(x)
+if len(x)%2==0:
+    print("CHAT WITH HER!")
+else:
+    print("IGNORE HIM!")
