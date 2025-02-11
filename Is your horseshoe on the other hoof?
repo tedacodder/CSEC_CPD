@@ -1,0 +1,9 @@
+x=[int(i) for i in input().split()]
+a=0
+i=0
+x.sort()
+while i !=len(x)-1:
+    if x[i]==x[i+1]:
+        a +=1
+    i +=1
+print(a)   
