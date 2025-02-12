@@ -1,0 +1,12 @@
+x=int(input())
+count=0
+prev=0
+for i in range(x):
+    a=int(input())
+    if prev == 0:
+        prev=a
+        count +=1
+    elif prev !=a:
+        count +=1
+    prev=a
+print(count)
