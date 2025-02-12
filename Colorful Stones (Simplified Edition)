@@ -1,0 +1,9 @@
+x=input()
+y=input()
+s=len(x)
+t=len(y)
+index=0
+for i in range(t):
+    if x[index]==y[i]:
+        index +=1
+print(index+1)
