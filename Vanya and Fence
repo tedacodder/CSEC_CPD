@@ -1,0 +1,12 @@
+x=[int(i) for i in input().split()]
+h=x[1]
+y=[int(j) for j in input().split()]
+z=[]
+for i in y:
+    count=1
+    if i>h:
+        count +=1
+        z.append(count)
+    else:
+        z.append(count) 
+print(sum(z))
