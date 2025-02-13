@@ -1,0 +1,10 @@
+word = input()
+cursor = 'a'
+moves = 0
+
+for letter in word:
+    distance = abs(ord(letter) - ord(cursor))
+    moves += min(distance, 26 - distance)
+    cursor = letter
+
+print(moves)
